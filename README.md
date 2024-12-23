@@ -40,4 +40,23 @@ Plot diatas menunjukkan bahwa akurasi terus meningkat seiring bertambahnya epoch
 
 Gambar diatas merupakan *Classification Report* dari Model setelah dilakukan *predict* terhadap *Testing Set*. Dapat dilihat bahwa Akurasinya mencapai **90%**
 
+### VGG19
+**Preprocessing**
+Preprocesing yang dilakukan adalah *resize***(224,224)**, lalu *rescale / normalization* dengan rentang **1./255**, dan Augmentation untuk menghasilkan dataset yang sesuai lalu dilakukan split data menjadi 3 *(Training, Validation, dan Testing)* sesuai dengan penjelasan pada Dataset.
+
+Hasil dari VGG19 Model yang telah dibangun adalah sebagai berikut :
+
+![image](src/VGG19sum.jpg)
+
+**Model Evaluation**
+
+Berikut adalah hasil dari fitting  VGG19 yang telah dibangun :
+
+![image](src/VGGl9.png)
+
+Plot diatas menunjukkan bahwa akurasi terus meningkat seiring bertambahnya epoch, model ini berjalan dengan baik dari data train, tidak ada tanda-tanda overfitting maupun underfitting. Begitu juga pada validation test jga meningkat dengan stabil, tetapi sedikit lebih tinggi daripada train
+
+![image](src/VGG19_report.png)
+
+Gambar diatas merupakan *Classification Report* dari Model setelah dilakukan *predict* terhadap *Testing Set*. Dapat dilihat bahwa Akurasinya mencapai **83%**
 
