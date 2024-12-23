@@ -9,8 +9,8 @@ Model yang digunakan: ***Mobile NetV2*** dengan 3 Layer dan Pre Trained Model **
 
 **Mobile Net Architecture** ✨
 
-![image](https://github.com/)
+![image](mobilenetv2.png)
 
 **Inception-V3 Architecture** ✨
 
-![image](https://github.com/)
+![image](inceptionv3.png)
