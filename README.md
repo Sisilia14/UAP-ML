@@ -13,10 +13,10 @@ Model yang digunakan: ***Mobile NetV2*** dengan 3 Layer dan Pre Trained Model **
 
 **VGG19 Architecture** 
 
-![image]()
+![image](VGG19arc.png)
 
 ## Overview Dataset
-Dataset yang digunakan adalah RPS Dataset dengan link sebagai [berikut]([https://drive.google.com/drive/folders/1FhH72OaOBqVZchjYa4KLqFerBupNckEb?usp=sharing](https://www.kaggle.com/datasets/rizkyyk/dataset-food-classification)). Dataset terdiri atas 6500 data yang terbagi menjadi 500 setiap kategorinya dan 25.965 data sebagai *Training Set*, 650 data sebagai *Validation Set*, dan 648 data sebagai *Testing Set*, dimana pada setiap Set, terdapat 13 Label Class yaitu *"ayam goreng", "ayam goreng","burger", "frech fries", "Gado-Gado", "Ikan goreng", "Mie goreng", "Nasi goreng", "nasi padang", "Pizza", "Rawon", "rendang", "sate", "soto".*. 
+Dataset yang digunakan adalah RPS Dataset dengan link sebagai [berikut]([https://www.kaggle.com/datasets/rizkyyk/dataset-food-classification]). Dataset terdiri atas 6500 data yang terbagi menjadi 500 setiap kategorinya dan 25.965 data sebagai *Training Set*, 650 data sebagai *Validation Set*, dan 648 data sebagai *Testing Set*, dimana pada setiap Set, terdapat 13 Label Class yaitu *"ayam goreng", "ayam goreng","burger", "frech fries", "Gado-Gado", "Ikan goreng", "Mie goreng", "Nasi goreng", "nasi padang", "Pizza", "Rawon", "rendang", "sate", "soto".*. 
 
 ## Preprocessing & Modelling
 
@@ -32,10 +32,10 @@ Hasil dari MobileNetV2 Model yang telah dibangun adalah sebagai berikut :
 
 Berikut adalah hasil dari fitting  MobileNetV2 yang telah dibangun :
 
-![image]()
+![image](mobilenetv2hasil.png)
 
 Plot diatas menunjukkan bahwa 
 
-![image]()
+![image](Mobilenet report.png)
 
 Gambar diatas merupakan *Classification Report* dari Model setelah dilakukan *predict* terhadap *Testing Set*. Dapat dilihat bahwa Akurasinya mencapai **90%**
