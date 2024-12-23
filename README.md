@@ -62,12 +62,12 @@ Gambar diatas merupakan *Classification Report* dari Model setelah dilakukan *pr
 
 ## Local Web Deployment
 ### Tampilan HomePage
-![image]()
+![image](homepage_awal.png)
 
 ### Tampilan Homepage setelah upload image
-![image]()
+![image](setelah_up.png)
 
 ### Tampilan Setelah prediksi
 
-![image]()
+![image](prediksi.png)
 
