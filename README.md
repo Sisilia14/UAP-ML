@@ -60,3 +60,14 @@ Plot diatas menunjukkan bahwa akurasi terus meningkat seiring bertambahnya epoch
 
 Gambar diatas merupakan *Classification Report* dari Model setelah dilakukan *predict* terhadap *Testing Set*. Dapat dilihat bahwa Akurasinya mencapai **83%**
 
+## Local Web Deployment
+### Tampilan HomePage
+![image]()
+
+### Tampilan Homepage setelah upload image
+![image]()
+
+### Tampilan Setelah prediksi
+
+![image]()
+
