@@ -26,7 +26,7 @@ Preprocesing yang dilakukan adalah *resize***(224,224)**, lalu *rescale / normal
 
 Hasil dari MobileNetV2 Model yang telah dibangun adalah sebagai berikut :
 
-![image]()
+![image](mobilejum.jpg)
 
 **Model Evaluation**
 
