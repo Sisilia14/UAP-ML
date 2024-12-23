@@ -52,7 +52,7 @@ Hasil dari VGG19 Model yang telah dibangun adalah sebagai berikut :
 
 Berikut adalah hasil dari fitting  VGG19 yang telah dibangun :
 
-![image](src/VGGl9.png)
+![image](src/VGG19.png)
 
 Plot diatas menunjukkan bahwa akurasi terus meningkat seiring bertambahnya epoch, model ini berjalan dengan baik dari data train, tidak ada tanda-tanda overfitting maupun underfitting. Begitu juga pada validation test jga meningkat dengan stabil, tetapi sedikit lebih tinggi daripada train
 
