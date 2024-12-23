@@ -34,8 +34,8 @@ Berikut adalah hasil dari fitting  MobileNetV2 yang telah dibangun :
 
 ![image](src/mobilenetv2hasil.png)
 
-Plot diatas menunjukkan bahwa 
+Plot diatas menunjukkan bahwa akurasi terus meningkat seiring bertambahnya epoch, model ini berjalan dengan baik dari data train, tidak ada tanda-tanda overfitting maupun underfitting. Begitu juga pada validation test jga meningkat dengan stabil, tetapi sedikit lebih tinggi daripada train
 
-![image](src/Mobilenet report.png)
+![image](src/Mobilenetreport.png)
 
 Gambar diatas merupakan *Classification Report* dari Model setelah dilakukan *predict* terhadap *Testing Set*. Dapat dilihat bahwa Akurasinya mencapai **90%**
